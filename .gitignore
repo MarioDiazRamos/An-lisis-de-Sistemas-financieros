@@ -1,0 +1,81 @@
+# Archivos y carpetas específicas del proyecto
+datos/*.csv
+datos/*.pkl
+datos/*.json
+datos/backup/
+logs/*.log
+logs/old/
+
+# Archivos de configuración local (evitar exposición de claves API)
+.env
+.env.local
+config.local.py
+api_keys.py
+
+# Archivos temporales de resultados
+resultados_temporales/
+
+# Bytecode de Python / archivos optimizados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribución / empaquetado
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Documentación
+docs/_build/
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos del sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos específicos
+config_local.py

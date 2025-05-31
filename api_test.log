@@ -1,0 +1,30 @@
+2025-05-29 06:01:08,819 - api_test - INFO - === DIAGNÓSTICO DE API BASESCAN ===
+2025-05-29 06:01:08,821 - api_test - INFO - URL de la API: https://basescan.org/api
+2025-05-29 06:01:08,822 - api_test - INFO - Clave API (3 primeros caracteres): XVU**********
+2025-05-29 06:01:08,823 - api_test - INFO - Probando conexión básica a la API de Basescan...
+2025-05-29 06:01:08,998 - api_test - INFO - Resultado de ping: Status Code = 403
+2025-05-29 06:01:08,999 - api_test - INFO - Respuesta: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta nam
+2025-05-29 06:01:09,012 - api_test - INFO - Probando validez de la clave API...
+2025-05-29 06:01:09,172 - api_test - INFO - Status Code = 403
+2025-05-29 06:01:09,179 - api_test - INFO - Probando endpoints comunes de la API...
+2025-05-29 06:01:09,180 - api_test - INFO - Probando endpoint: /v1/ticker/price
+2025-05-29 06:01:09,331 - api_test - INFO - Status Code = 403
+2025-05-29 06:01:11,341 - api_test - INFO - Probando endpoint: /v1/ticker/24hr
+2025-05-29 06:01:11,497 - api_test - INFO - Status Code = 403
+2025-05-29 06:01:13,508 - api_test - INFO - Probando endpoint: /v1/klines
+2025-05-29 06:01:13,662 - api_test - INFO - Status Code = 403
+2025-05-29 06:01:15,674 - api_test - INFO - Probando URLs alternativas...
+2025-05-29 06:01:15,675 - api_test - INFO - Probando URL alternativa: https://api.basescan.org
+2025-05-29 06:01:15,829 - api_test - INFO - Status Code = 403
+2025-05-29 06:01:16,836 - api_test - INFO - Probando URL alternativa: https://api.base.org
+2025-05-29 06:01:17,966 - api_test - INFO - Probando URL alternativa: https://api-basescan.org
+2025-05-29 06:01:19,140 - api_test - INFO - Probando extracción de datos históricos...
+2025-05-29 06:01:19,141 - api_test - INFO - Solicitando datos históricos desde 2025-05-22 06:01:19.141013 hasta 2025-05-29 06:01:19.141013
+2025-05-29 06:01:19,298 - api_test - INFO - Status Code = 403
+2025-05-29 06:01:19,343 - api_test - INFO - Verificando documentación de la API...
+2025-05-29 06:01:19,502 - api_test - INFO - URL de documentación https://basescan.org/api-docs: Status Code = 403
+2025-05-29 06:01:19,626 - api_test - INFO - URL de documentación https://docs.basescan.org: Status Code = 200
+2025-05-29 06:01:19,784 - api_test - INFO - URL de documentación https://basescan.org/docs: Status Code = 403
+2025-05-29 06:01:19,945 - api_test - INFO - URL de documentación https://api.basescan.org/docs: Status Code = 403
+2025-05-29 06:01:19,951 - api_test - INFO - === FIN DEL DIAGNÓSTICO ===
+2025-05-29 06:01:19,951 - api_test - INFO - Revise el archivo api_test.log para detalles completos

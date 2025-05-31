@@ -1,0 +1,31 @@
+# Requisitos del proyecto de minería de datos para trading de criptomonedas
+# pip install -r requirements.txt
+
+# Bibliotecas principales
+numpy==1.22.4
+pandas==1.5.3
+scikit-learn==1.2.2
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Indicadores técnicos
+ta==0.10.2
+
+# Minería de reglas de asociación
+mlxtend==0.22.0
+
+# Solicitudes HTTP para API
+requests==2.28.2
+
+# Interfaz gráfica
+# tkinter viene incluido con Python por defecto, no se instala con pip
+ttkthemes==3.2.2
+Pillow==9.5.0
+
+# Utilidades
+python-dateutil==2.8.2
+tqdm==4.65.0
+joblib==1.2.0
+
+# Testing
+pytest==7.3.1
